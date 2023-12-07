@@ -11,6 +11,8 @@ This are not all the functions, there is more, but I am lazy to add them.
   - API.moveFile()
   - API.getSystemPath()
   - API.getFolderEnv()
+  - API.makeFolder() : It makes a local folder inside Portify's enviroment
+  - API.delFolder() : It deletes a local folder inside Portify's enviroment
 # API Net:
   - APINet.downloadFile()
   - APINet.request()
@@ -18,6 +20,13 @@ This are not all the functions, there is more, but I am lazy to add them.
   - Settings.loadSettings()
   - Settings.createSettings() : Not used for scripts, only used exclusive for portify
   - Settings.setSettings() : Very dangerous, it can modify the settings for portify
+  # LocalStorage API
+    - Settings.LocalStorage().createStorage()
+    - Settings.LocalStorage().addKey()
+    - Settings.LocalStorage().editKey()
+    - Settings.LocalStorage().delKey()
+    - Settings.LocalStorage().getKey()
+    - Settings.LocalStorage().deleteStorage()
 ```
 ## Why should I use it?
 You can use it for making daily tasks, or making other things that you would like to do.
