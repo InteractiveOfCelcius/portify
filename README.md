@@ -27,10 +27,17 @@ This are not all the functions, there is more, but I am lazy to add them.
     - Settings.LocalStorage().delKey()
     - Settings.LocalStorage().getKey()
     - Settings.LocalStorage().deleteStorage()
+    - Settings.LocalStorage().getFolderEnv()
 
 
 # Core Functions:
   - wait()
+  - getgc()
+  - version()
+  - Portify.console.log().info()
+  - Portify.console.log().warn()
+  - Portify.console.log().error()
+  - Portify.console.log().success()
 ```
 ## Why should I use it?
 You can use it for making daily tasks, or making other things that you would like to do.
